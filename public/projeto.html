@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="icon" type="image/svg+xml" href="css/icon.svg">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Projeto — Voz Ativa</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="topline"></div>
+    <header class="nav"><a class="brand" href="index.html"><span class="brand-mark">VA</span><span>VOZ
+                ATIVA<small>GRÊMIO ESTUDANTIL</small></span></a>
+        <nav class="navlinks"><a href="index.html">Início</a><a href="candidaturas.html">Chapas</a><a
+                href="propostas.html">Propostas</a><a href="votacao.html">Votação</a><a
+                href="apuracao.html">Apuração</a><a class="active" href="projeto.html">Projeto</a></nav><span
+            class="status"></span>
+    </header>
+    <main>
+        <section class="page-hero">
+            <div class="eyebrow">05 — POR TRÁS DO PROJETO</div>
+            <h1>Uma eleição que<br><span>não depende só</span><br>da internet.</h1>
+            <p>O Voz Ativa foi construído para demonstrar arquitetura offline-first: interface, Service Worker,
+                armazenamento local, API Express e Supabase trabalhando juntos.</p>
+        </section>
+        <section class="section">
+            <div class="tech">
+                <article><b>FRONT-END</b>
+                    <h3>HTML + CSS + JS</h3>
+                    <p>Várias páginas independentes, navegação tradicional, layout responsivo e interface com identidade
+                        visual própria.</p>
+                </article>
+                <article><b>PWA</b>
+                    <h3>Service Worker</h3>
+                    <p>Os arquivos essenciais são colocados em cache para que a navegação continue disponível sem
+                        conexão.</p>
+                </article>
+                <article><b>BACK-END</b>
+                    <h3>Node + Express</h3>
+                    <p>A API centraliza a leitura das chapas, registro dos votos e sincronização das operações
+                        pendentes.</p>
+                </article>
+                <article><b>DATABASE</b>
+                    <h3>Supabase</h3>
+                    <p>PostgreSQL armazena candidatos, propostas e votos. Uma restrição impede duas votações da mesma
+                        sessão.</p>
+                </article>
+            </div>
+            <div class="arch"><span>HTML / CSS / JS</span><i>→</i><span>Service Worker</span><i>→</i><span>Express
+                    API</span><i>→</i><span>Supabase</span><i>→</i><span>PostgreSQL</span></div>
+        </section>
+    </main>
+    <footer class="footer"><strong>VOZ <span>ATIVA</span></strong><small>Projeto prático de Web Apps •
+            Offline-first</small></footer>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
